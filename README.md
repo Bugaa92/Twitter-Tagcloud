@@ -3,7 +3,7 @@
 Installation
 ------------
 
-Install pip:
+Install pip (python should already be installed):
 
     apt-get install python-pip
 
@@ -14,7 +14,7 @@ Then install tweepy:
 
 Running
 ------------
-python tagcloud.py <duration> [<wordCount>]
+    python tagcloud.py <duration> [<wordCount>]
 
 Developed with: Python version 2.7.6
 
