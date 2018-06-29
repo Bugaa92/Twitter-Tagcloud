@@ -1,6 +1,6 @@
 # Twitter-Tagcloud
 
-Installation
+1.Installation
 ------------
 
 Install pip (python should already be installed):
@@ -24,27 +24,27 @@ Download this repo:
 Edit resource.py and add your personal tokens following the tips inside the comments. 
 
 
-Running the version using Counter (Python collection)
+2.Running the version using Counter (Python collection)
 ------------
     # run from src/ folder
     python tagcloud.py <duration> [<wordCount>]
 
 
-Running the version using Redis
+3.Running the version using Redis
 ------------
     # run from src/ folder
     redis-server # run local redis server
     python redis_tagcloud.py <duration> [<wordCount>]
 
 
-Cleaning
+4.Cleaning
 ------------
     rm results.json
 
 Developed with: Python version 2.7.6
 
 
-Documentation
+5.Documentation
 -------------
   - [Python Documentation 2](https://docs.python.org/2/)
   - [Tweepy Documentation](http://tweepy.readthedocs.org/en/v3.2.0/)
